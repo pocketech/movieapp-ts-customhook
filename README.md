@@ -12,8 +12,6 @@
 ## :earth_africa: Demo
 [デモページ (GitHub Pages)](https://pocketech.github.io/movieapp-ts-customhook)
 
-In the project directory, you can run:
-
 ## :clap: Best Parts
 1. Context Providerを責務（取得or変更）で分割することによりRerenderを防ぐvalueの受け渡しを実現。
 ```typescript
@@ -63,19 +61,10 @@ export const useMovieFetch = (searchValue: string): [State, () => void] => {
 }
 ```
 3. useCallBack,React.memoでメモ化し、余計なレンダリングを防ぐ
+
 4. tailwindcssでカスタマイズ性の高いCSS
 
 ## :clipboard: Task List
 1. 検索結果のページネーション機能
 2. 映画タイトルが省略された場合のツールチップサポートの実装
 3. 検索結果のソート機能（e.g. 公開年度）
-
-
-
-
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
