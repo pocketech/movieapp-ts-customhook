@@ -6,7 +6,7 @@ type Props = {
   movieState: State
 }
 
-const MovieList: React.FC<Props> = ({ movieState }) => {
+const MovieList: React.FC<Props> = React.memo(({ movieState }) => {
   if (!movieState) return <p>Error</p>
   if (movieState.isLoading) return <p>Loading...</p>
   if (!movieState.data) return <p>No Data</p>
@@ -17,6 +17,6 @@ const MovieList: React.FC<Props> = ({ movieState }) => {
       )}
     </div>
   )
-}
+})
 
 export default MovieList
