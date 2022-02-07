@@ -11,6 +11,7 @@
 - 型安全にデータフェッチしたい！
 ## :earth_africa: Demo
 [デモページ (GitHub Pages)](https://pocketech.github.io/movieapp-ts-customhook)
+![WHWfNft](https://user-images.githubusercontent.com/68690824/152722738-8167587f-6698-45ce-b5b0-42fe7e0243d2.jpeg)
 
 ## :clap: Best Parts
 1. Context Providerを責務（取得or変更）で分割することによりRerenderを防ぐvalueの受け渡しを実現。
